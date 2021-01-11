@@ -22,7 +22,7 @@ aranan = input("Aranacak exploit: ")
 
 os.system("searchsploit " + aranan)
 
-soru = input("Yeni arama yapmak istermisiniz? (e/h): ")
+soru = input("Yeni arama yapmak istermisiniz? (E/h): ")
 
 if soru == "E":
     os.system("python3 Searchsploit.py")
