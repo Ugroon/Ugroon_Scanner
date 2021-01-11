@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 
+os.system("clear")
 os.system("apt update")
 os.system("apt full-upgrade")
 os.system("apt install figlet")
