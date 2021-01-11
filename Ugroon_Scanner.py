@@ -66,7 +66,7 @@ if secim == "1":
         import time
         time.sleep(3)
         exit()
-    os.system("clear")
+    
         
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
@@ -110,7 +110,7 @@ Not: Dosya bulunduğunuz dizine indirilecektir.
     xspear_site = input("Taranacak URL: ")
     os.system("XSpear " + parametre + xspear_site )
     
-    os.system("clear")
+    
     
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
@@ -169,7 +169,7 @@ elif secim == "5":
         import time
         time.sleep(3)
         exit()
-    os.system("clear")
+    
         
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
@@ -197,8 +197,6 @@ elif secim == "7":
 
     os.system("clear")
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
-    
-    os.system("clear")
     
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ") 
     
