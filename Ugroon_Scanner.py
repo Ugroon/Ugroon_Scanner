@@ -18,6 +18,7 @@ print("""
 4) XSpear
 5) Nikto
 6) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+7) Searchsploit
 
 """)
 secim = input("Seçenek: ")
@@ -152,6 +153,36 @@ elif secim == "6":
 
     os.system("clear")
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
+
+elif secim == "7":
+    os.system("apt install searchsploit")
+    os.system("apt full-upgrade searchsploit")
+    os.system("clear")
+    os.system("figlet WELCOME TO SEARCHSPLOİT")
+
+    print("""
+
+Searchsploit aracına hoşgeldiniz.
+
+""")
+
+
+    aranan = input("Aranacak exploit: ")
+
+    os.system("searchsploit " + aranan)
+
+    soru = input("Yeni arama yapmak istermisiniz? (e/h): ")
+
+    if soru == "E" or "e":
+        os.system("python3 Searchsploit.py")
+
+    else:
+        print("Programdan çıkılıyor.")
+
+        import time
+        time.sleep(3)
+
+        exit()
         
     
 else:
