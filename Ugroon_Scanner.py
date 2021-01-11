@@ -208,7 +208,7 @@ elif secim == "7":
           
     print(""" 
     
-    """      
+    """)      
     
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ") 
     
