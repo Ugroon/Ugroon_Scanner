@@ -21,6 +21,9 @@ if secim == "1":
     secim1 = input("Hedef URL: ")
 
     os.system("sqlmap -u " + secim1 + " --level 5 --risk 3 --dbs")
+    
+    print(""" 
+    """)
 
     a = input("Diğer aşamalara geçmek için sqlmap'i yeniden çalıştırmak istermisiniz? (E/h): ")
 
@@ -46,6 +49,9 @@ elif secim == "2":
     secim21 = input("Veri tabanı ismi: ")
 
     os.system("sqlmap -u " + secim2 + " --level 5 --risk 3 -D " + secim21 + " --tables")
+    
+    print(""" 
+    """)
 
     b = input("Diğer aşamalara geçmek için sqlmap'i yeniden çalıştırmak istermisiniz? (E/h): ")
 
@@ -74,6 +80,9 @@ elif secim == "3":
 
     os.system("sqlmap -u " + secim3 + " --level 5 --risk 3 -D " + secim31 + " -T " + secim32 + " --columns")
 
+    print(""" 
+    """)
+    
     c = input("Diğer aşamalara geçmek için sqlmap'i yeniden çalıştırmak istermisiniz? (E/h): ")
 
     os.system("clear")
@@ -103,10 +112,13 @@ elif secim == "4":
 
     os.system("sqlmap -u " + secim4 + " --level 5 --risk 3 -D " + secim41 + " -T " + secim42 + " -C" + secim43)
 
+    print(""" 
+    """)
+    
     d = input("Diğer aşamalara geçmek için sqlmap'i yeniden çalıştırmak istermisiniz? (E/h): ")
 
     os.system("clear")
-
+    
     if d == "e":
         
         os.system("python3 Sqlmap.py")
