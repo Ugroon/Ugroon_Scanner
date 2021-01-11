@@ -155,36 +155,7 @@ elif secim == "6":
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
 
 elif secim == "7":
-    os.system("apt install searchsploit")
-    os.system("apt full-upgrade searchsploit")
-    os.system("clear")
-    os.system("figlet WELCOME TO SEARCHSPLOİT")
-
-    print("""
-
-Searchsploit aracına hoşgeldiniz.
-
-""")
-
-
-    aranan = input("Aranacak exploit: ")
-
-    os.system("searchsploit " + aranan)
-
-    soru = input("Yeni arama yapmak istermisiniz? (e/h): ")
-
-    if soru == "E" or "e":
-        os.system("python3 Searchsploit.py")
-
-    else:
-        print("Programdan çıkılıyor.")
-
-        import time
-        time.sleep(3)
-
-        exit()
-        
-    
+    os.system("python3 Searchsploit.py")
 else:
     print("Hatalı işlem yaptınız bu nedenle program kapatılıyor.")
     import time
