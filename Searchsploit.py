@@ -33,7 +33,5 @@ elif soru == "e":
 else:
     os.system("clear")
     
-    print("Programdan çıkılıyor.")
-
     exit()
     
