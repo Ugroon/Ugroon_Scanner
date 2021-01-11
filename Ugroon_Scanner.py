@@ -115,7 +115,7 @@ Not: Dosya bulunduğunuz dizine indirilecektir.
     
     print(""" 
     
-    """
+    """)
     
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
