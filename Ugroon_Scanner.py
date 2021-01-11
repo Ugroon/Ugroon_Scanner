@@ -194,7 +194,10 @@ elif secim == "7":
     os.system("clear")
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
     
-    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ") 
+    
+    if restart == "E":
+        os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
         os.system("python3 Ugroon_Scanner.py")
