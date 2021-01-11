@@ -156,6 +156,9 @@ elif secim == "6":
 
 elif secim == "7":
     os.system("python3 Searchsploit.py")
+    
+    exit()
+    
 else:
     print("Hatalı işlem yaptınız bu nedenle program kapatılıyor.")
     import time
