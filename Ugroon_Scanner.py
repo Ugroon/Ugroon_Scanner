@@ -17,8 +17,8 @@ print("""
 3) Skipfish
 4) XSpear
 5) Nikto
-6) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
-7) Searchsploit
+6) Searchsploit
+7) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -140,7 +140,7 @@ elif secim == "5":
         import time
         time.sleep(3)
         exit()
-elif secim == "6":
+elif secim == "7":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git")
     os.system("cd rapidscan")
@@ -154,7 +154,7 @@ elif secim == "6":
     os.system("clear")
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
 
-elif secim == "7":
+elif secim == "6":
     os.system("python3 Searchsploit.py")
     
     exit()
