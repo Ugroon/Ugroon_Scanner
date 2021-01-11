@@ -31,6 +31,8 @@ elif soru == "e":
     os.system("python3 Searchsploit.py")
 
 else:
+    os.system("clear")
+    
     print("Programdan çıkılıyor.")
 
     exit()
