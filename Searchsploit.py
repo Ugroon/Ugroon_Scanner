@@ -24,14 +24,14 @@ os.system("searchsploit " + aranan)
 
 soru = input("Yeni arama yapmak istermisiniz? (e/h): ")
 
-if soru == "E" or "e":
+if soru == "E":
+    os.system("python3 Searchsploit.py")
+    
+elif soru == "e":
     os.system("python3 Searchsploit.py")
 
 else:
     print("Programdan çıkılıyor.")
-
-    import time
-    time.sleep(3)
 
     exit()
     
