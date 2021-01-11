@@ -66,6 +66,19 @@ if secim == "1":
         import time
         time.sleep(3)
         exit()
+        
+    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+    if restart == "E":
+        os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "e":
+        os.system("python3 Ugroon_Scanner.py")
+
+    else:
+        print("Program kapatıldı.")
+
+        exit()
 
 elif secim == "2":
     os.system("apt install zaproxy")
@@ -95,6 +108,19 @@ Not: Dosya bulunduğunuz dizine indirilecektir.
     parametre = input("Parametre(Örneğin -v 2): ")
     xspear_site = input("Taranacak URL: ")
     os.system("XSpear " + parametre + xspear_site )
+    
+    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+    if restart == "E":
+        os.system("python3 Ugroon_Scanner.py")    
+        
+    elif restart == "e":
+        os.system("python3 Ugroon_Scanner.py")
+
+    else:
+        print("Program kapatıldı.")
+
+        exit()
 
 elif secim == "5":
     os.system("sudo apt-get install nikto")
@@ -140,6 +166,20 @@ elif secim == "5":
         import time
         time.sleep(3)
         exit()
+        
+    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+    if restart == "E":
+        os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "e":
+        os.system("python3 Ugroon_Scanner.py")
+
+    else:
+        print("Program kapatıldı.")
+
+        exit()   
+        
 elif secim == "7":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git")
@@ -153,6 +193,16 @@ elif secim == "7":
 
     os.system("clear")
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
+    
+    restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+        
+    elif restart == "e":
+        os.system("python3 Ugroon_Scanner.py")
+
+    else:
+        print("Program kapatıldı.")
+
+        exit()
 
 elif secim == "6":
     os.system("python3 Searchsploit.py")
