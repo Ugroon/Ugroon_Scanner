@@ -107,6 +107,7 @@ elif secim == "5":
 2) XSS ve javascript enjeksiyonu taraması
 3) Hizmet reddi taraması
 4) SQL enjeksiyon taraması
+5) Normal Tarama
 
 """)
 
@@ -129,6 +130,9 @@ elif secim == "5":
         
     elif nikto_secim == "4":
         os.system("nikto -Tuning 9 -h " + hedefip)
+        
+    elif nikto_secim == "5":
+        os.system("nikto -h " + hedefip)
 
     else:
         print("Hatalı işlem yaptınız bu nedenle program kaptılıyor.")
