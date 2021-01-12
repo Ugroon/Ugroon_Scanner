@@ -3,12 +3,12 @@
 import os
 
 os.system("clear")
-os.system("apt update")
-os.system("apt full-upgrade")
-os.system("apt install figlet")
-os.system("apt full-upgrade figlet")
-os.system("apt install git")
-os.system("apt full-upgrade git")
+os.system("apt -y update")
+os.system("apt -y full-upgrade")
+os.system("apt -y install figlet")
+os.system("apt -y full-upgrade figlet")
+os.system("apt -y install git")
+os.system("apt -y full-upgrade git")
 os.system("clear")
 os.system("figlet WELCOME TO UGROON SCANNER")
 
