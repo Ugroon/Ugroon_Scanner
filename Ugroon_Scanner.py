@@ -21,7 +21,8 @@ print("""
 6) Searchsploit
 7) Sqlmap
 8) Güvenlik duvarı tespiti
-9) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+9) MAC Adresi değiştirme
+10) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -195,7 +196,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "9":
+elif secim == "10":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -239,6 +240,12 @@ elif secim == "7":
 elif secim == "8":
     
     os.system("python3 wafw00f.py")
+    
+    exit()
+    
+elif secim == "9":
+    
+    os.system("python3 MAC_Changer.py")
     
     exit()
             
