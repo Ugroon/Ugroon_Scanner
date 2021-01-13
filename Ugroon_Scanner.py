@@ -196,8 +196,8 @@ elif secim == "5":
         
 elif secim == "8":
 
-    os.system("git clone https://github.com/skavngr/rapidscan.git")
-    os.system("cd rapidscan")
+    os.system("git clone https://github.com/skavngr/rapidscan.git") 
+    os.system("clear")
 
     os.system("figlet Rapidscan")
     print("""
