@@ -20,7 +20,8 @@ print("""
 5) Nikto
 6) Searchsploit
 7) Sqlmap
-8) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+8) Güvenlik duvarı tespiti
+9) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -194,7 +195,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "8":
+elif secim == "9":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -234,6 +235,13 @@ elif secim == "7":
     os.system("python3 Sqlmap.py")
     
     exit()
+    
+elif secim == "8":
+    
+    os.system("python3 wafw00f.py")
+    
+    exit()
+            
     
 else:
     print("Hatalı işlem yaptınız bu nedenle program kapatılıyor.")
