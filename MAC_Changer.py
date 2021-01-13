@@ -66,6 +66,8 @@ elif secim == "3":
     print("MAC Adresi Orijinal Haline Getirildi")
 
 else:
+    
+    print("Hatalı seçeneği seçtiğiniz için program yeniden başlatılıyor.")
 
     os.system("python3 MAC_Changer.py")
 
