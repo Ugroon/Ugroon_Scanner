@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import os
 
-os.system("apt-get install sysvbanner")
 os.system("clear")
+os.system("apt-get install sysvbanner")
 os.system("apt -y update")
 os.system("apt -y full-upgrade")
 os.system("apt -y install figlet")
