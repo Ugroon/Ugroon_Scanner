@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 
+os.system("apt-get install sysvbanner")
 os.system("clear")
 os.system("apt -y update")
 os.system("apt -y full-upgrade")
@@ -10,7 +11,7 @@ os.system("apt -y full-upgrade figlet")
 os.system("apt -y install git")
 os.system("apt -y full-upgrade git")
 os.system("clear")
-os.system("figlet WELCOME TO UGROON SCANNER")
+os.system("sysbanner WELCOME TO UGROON & BOLLWİDE SCANNER")
 
 print("""
 1) Nmap
