@@ -3,15 +3,15 @@
 import os
 
 os.system("clear")
-os.system("apt-get install sysvbanner")
 os.system("apt -y update")
 os.system("apt -y full-upgrade")
 os.system("apt -y install figlet")
 os.system("apt -y full-upgrade figlet")
 os.system("apt -y install git")
 os.system("apt -y full-upgrade git")
+os.system("apt-get install sysvbanner")
 os.system("clear")
-os.system("sysvbanner WELCOME TO UGROON AND BOLLWİDE SCANNER")
+os.system("sysvbanner WELCOME TO UGROON AND BOLLWIDE SCANNER")
 
 print("""
 1) Nmap
