@@ -11,7 +11,7 @@ os.system("apt -y install git")
 os.system("apt -y full-upgrade git")
 os.system("apt-get install sysvbanner")
 os.system("clear")
-os.system("figlet WELCOME TO UGROON AND BOLLWIDE SCANNER")
+os.system("figlet WELCOME TO BOLLWIDE AND UGROON SCANNER")
 
 print("""
 1) Nmap
