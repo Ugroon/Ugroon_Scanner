@@ -6,6 +6,7 @@ import os
 os.system("clear")
 os.system("apt install -y msfvenom")
 os.system("apt full-upgrade msfvenom")
+os.system("clear")
 os.system("figlet Trojan Olusturma")
 
 
