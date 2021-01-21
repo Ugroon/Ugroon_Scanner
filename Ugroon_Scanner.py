@@ -26,7 +26,8 @@ print("""
 9) MAC Adresi değiştirme
 10) Ncrack
 11) Rootkit taraması
-12) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+12) Trojan oluşturma
+13) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -200,7 +201,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "12":
+elif secim == "13":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -262,6 +263,12 @@ elif secim == "10":
 elif secim == "11":
     
     os.system("python3 Rootkit.py")
+    
+    exit()
+    
+elif secim == "12":
+    
+    os.system("python3 Trojan Oluştur.py")
     
     exit()
     
