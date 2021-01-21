@@ -3,6 +3,7 @@
 import os
 
 os.system("clear")
+os.system("apt autoremove")
 os.system("apt -y update")
 os.system("apt -y full-upgrade")
 os.system("apt -y install figlet")
