@@ -38,7 +38,7 @@ if e == restart.upper():
 
 elif restart == "":
 
-    os.system("python3 Trojan Oluştur.py")
+    os.system("python3 'Trojan Oluştur.py'")
 
 
 else:
