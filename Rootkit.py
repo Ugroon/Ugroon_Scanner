@@ -28,7 +28,7 @@ restart = input("Rootkit aracını yeniden başlatmak istermisiniz? (E/h): ")
 
 uppere = str("E")
 
-if uppere == upper.restart():
+if uppere == restart.upper():
 
     os.system("python3 Rootkit.py")
 
