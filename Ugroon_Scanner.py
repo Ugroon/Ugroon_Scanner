@@ -268,7 +268,7 @@ elif secim == "11":
     
 elif secim == "12":
     
-    os.system("python3 Trojan Oluştur.py")
+    os.system("python3 'Trojan Oluştur.py'")
     
     exit()
     
