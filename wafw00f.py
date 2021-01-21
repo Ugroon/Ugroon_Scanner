@@ -21,9 +21,15 @@ os.system("waf00f " + hedef)
 
 tekrar = input("Programı tekrar başlatmak istermisiniz? (E/h): ")
 
-if tekrar == tekrar.upper("e"):
+e = str("E")
+
+if e == tekrar.upper():
 
     os.system("python3 wafw00.py")
+    
+elif tekrar == "":
+    
+    os.system("python3 wafw00f.py")
 
 else:
 
