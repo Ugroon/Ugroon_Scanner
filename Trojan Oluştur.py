@@ -34,7 +34,7 @@ e = str("E")
 
 if e == restart.upper():
 
-    os.system("python3 Trojan Oluştur.py")
+    os.system("python3 'Trojan Oluştur.py'")
 
 elif restart == "":
 
