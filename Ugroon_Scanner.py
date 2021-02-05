@@ -140,7 +140,11 @@ Not: Dosya bulunduğunuz dizine indirilecektir.
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
     if restart == "E":
-        os.system("python3 Ugroon_Scanner.py")    
+        os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "":
+        
+        os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
         os.system("python3 Ugroon_Scanner.py")
