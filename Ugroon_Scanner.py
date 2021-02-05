@@ -27,7 +27,8 @@ print("""
 10) Ncrack
 11) Rootkit taraması
 12) Trojan oluşturma
-13) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+13) Burpsuite
+14) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -201,7 +202,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "13":
+elif secim == "14":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -271,6 +272,26 @@ elif secim == "12":
     os.system("python3 'Trojan Oluştur.py'")
     
     exit()
+    
+elif secim == "13":
+    
+    os.system("clear")
+    
+    os.system("apt install burpsuite")
+    
+    os.system("clear")
+    
+    os.system("apt full-upgrade burpsuite")
+    
+    os.system("clear")
+    
+    os.system("figlet BURP SUITE")
+    
+    time.sleep(3)
+    
+    os.system("clear")
+    
+    os.system("burpsuite")
     
 else:
     print("Hatalı işlem yaptınız bu nedenle program kapatılıyor.")
