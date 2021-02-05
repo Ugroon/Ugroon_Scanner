@@ -52,7 +52,12 @@ if secim == "1":
     
 elif secim == "2":
     
+    os.system("clear")
+    
+    os.system("figlet Guvenlik Duvari Tespit")
+    
     print("""
+
 
 Güvenlik duvarı tespit programına hoş geldiniz.
 
