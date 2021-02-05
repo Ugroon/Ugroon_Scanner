@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 import os
 
+import time
+
 os.system("clear")
 os.system("apt autoremove -y")
 os.system("apt -y update")
