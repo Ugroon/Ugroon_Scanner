@@ -39,11 +39,15 @@ if secim == "1":
         
         os.system("python3 wafw00f.py")
         
+        exit()
+        
     elif a == "":
         
         os.system("clear")
         
         os.system("python3 wafw00f.py")
+        
+        exit()
         
     else:
         
@@ -80,10 +84,14 @@ Güvenlik duvarı tespit programına hoş geldiniz.
     if e == tekrar.upper():
 
         os.system("python3 wafw00f.py")
+        
+        exit()
     
     elif tekrar == "":
     
         os.system("python3 wafw00f.py")
+        
+        exit()
 
     else:
 
@@ -107,11 +115,15 @@ else:
         
         os.system("python3 wafw00f.py")
         
+        exit()
+        
     elif b == "":
         
         os.system("clear")
         
         os.system("python3 wafw00f.py")
+        
+        exit()
         
     else:
         
