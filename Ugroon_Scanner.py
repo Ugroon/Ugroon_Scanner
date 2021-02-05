@@ -285,7 +285,7 @@ elif secim == "13":
     
     os.system("clear")
     
-    os.system("figlet BURP SUITE")
+    os.system("figlet BURPSUITE")
     
     time.sleep(3)
     
