@@ -115,16 +115,23 @@ elif secim == "3":
     exit()
     
 elif secim == "4":
+    
     print("""
 Not: Dosya bulunduğunuz dizine indirilecektir.
 
 """)
+    
+    time.sleep(3)
+    
     os.system("git clone https://github.com/hahwul/XSpear.git")
-    os.system("cd XSpear")
-    os.system("gem install XSpear")
-    parametre = input("Parametre(Örneğin -v 2): ")
+    
+    os.system("cd XSpear && gem install XSpear")
+    
+    parametre = input("Parametre: ")
+    
     xspear_site = input("Taranacak URL: ")
-    os.system("XSpear " + parametre + xspear_site )
+    
+    os.system("XSpear " + parametre + " " + xspear_site )
     
     print(""" 
     
