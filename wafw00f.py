@@ -29,7 +29,7 @@ if secim == "1":
     
     """)
     
-    a = input("Yeni tarama yapmak istermisiniz? (E/h): ")
+    a = input("Güvenlik duvarı tespiti yapmak istermisiniz? (E/h): ")
     
     e = "E"
     
