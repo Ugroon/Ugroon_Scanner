@@ -25,7 +25,7 @@ e = str("E")
 
 if e == tekrar.upper():
 
-    os.system("python3 wafw00.py")
+    os.system("python3 wafw00f.py")
     
 elif tekrar == "":
     
