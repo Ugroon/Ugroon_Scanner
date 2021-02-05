@@ -294,7 +294,7 @@ elif secim == "13":
     
     os.system("burpsuite")
     
-elif secim == "15":
+elif secim == "14":
     
     os.system("python3 Wordlist.py")
     
