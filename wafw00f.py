@@ -25,6 +25,30 @@ if secim == "1":
     
     os.system("wafw00f -l")
     
+    print(""" 
+    
+    """)
+    
+    a = input("Yeni tarama yapmak istermisiniz? (E/h): ")
+    
+    e = "E"
+    
+    if e == a.upper():
+        
+        os.system("clear")
+        
+        os.system("python3 wafw00f.py")
+        
+    elif a == "":
+        
+        os.system("clear")
+        
+        os.system("python3 wafw00f.py")
+        
+    else:
+        
+        exit()
+    
     
 elif secim == "2":
     
@@ -39,6 +63,10 @@ Güvenlik duvarı tespit programına hoş geldiniz.
     os.system("clear")
 
     os.system("wafw00f " + hedef)
+    
+    print("""
+    
+    """)
 
     tekrar = input("Programı tekrar başlatmak istermisiniz? (E/h): ")
 
@@ -58,9 +86,29 @@ Güvenlik duvarı tespit programına hoş geldiniz.
         
 else:
     
-    print("Hatalı seçim yaptığınız için program kapatılıyor...")
+    print("Hatalı seçim yaptınız")
     
-    time.sleep(3)
+    print(""" 
     
-    exit()
+    """)
+    
+    b = input("Yeni tarama yapmak istermisiniz? (E/h): ")
+    
+    e = "E"
+    
+    if e == b.upper():
+        
+        os.system("clear")
+        
+        os.system("python3 wafw00f.py")
+        
+    elif b == "":
+        
+        os.system("clear")
+        
+        os.system("python3 wafw00f.py")
+        
+    else:
+        
+        exit()
     
