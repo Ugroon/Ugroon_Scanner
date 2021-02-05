@@ -28,7 +28,8 @@ print("""
 11) Rootkit taraması
 12) Trojan oluşturma
 13) Burpsuite
-14) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+14) Wordlist oluşturma
+15) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -202,7 +203,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "14":
+elif secim == "15":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -293,8 +294,14 @@ elif secim == "13":
     
     os.system("burpsuite")
     
+elif secim == "15":
+    
+    os.system("python3 Wordlist.py")
+    
+    exit()
+    
 else:
-    print("Hatalı işlem yaptınız bu nedenle program kapatılıyor.")
+    print("Hatalı işlem yaptınız bu nedenle program kapatılıyor...")
     import time
     time.sleep(3)
     exit()
