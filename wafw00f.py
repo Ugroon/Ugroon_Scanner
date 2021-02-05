@@ -17,7 +17,7 @@ Güvenlik duvarı tespit programına hoş geldiniz.
 
 hedef = input("Hedef site: ")
 
-os.system("waf00f " + hedef)
+os.system("wafw00f " + hedef)
 
 tekrar = input("Programı tekrar başlatmak istermisiniz? (E/h): ")
 
