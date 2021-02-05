@@ -43,6 +43,10 @@ konum = input("Wordlist'in kaydedileceği dosya konumu: ")
 
 os.system("crunch " + minimum + " " + maksimum + " " + harfler + " -O " + konum )
 
+print("""
+
+""")
+
 word = input("Yeni wordlist oluşturmak istermisiniz? (E/h): ")
 
 worde = "E"
