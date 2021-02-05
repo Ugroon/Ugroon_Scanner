@@ -7,7 +7,7 @@ os.system("apt install wafw00f && apt upgrade wafw00f")
 
 os.system("clear")
 
-os.system("figlet Güvenlik Duvarı Tespit")
+os.system("figlet Guvenlik Duvari Tespit")
 
 print("""
 
@@ -16,6 +16,8 @@ Güvenlik duvarı tespit programına hoş geldiniz.
 """)
 
 hedef = input("Hedef site: ")
+
+os.system("clear")
 
 os.system("wafw00f " + hedef)
 
