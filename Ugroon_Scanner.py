@@ -131,7 +131,7 @@ Not: Dosya bulunduğunuz dizine indirilecektir.
     
     xspear_site = input("Taranacak URL: ")
     
-    os.system("XSpear " + parametre + " " + xspear_site )
+    os.system("XSpear -u " + xspear_site + " " + parametre )
     
     print(""" 
     
