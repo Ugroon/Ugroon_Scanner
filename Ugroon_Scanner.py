@@ -36,49 +36,318 @@ print("""
 
 """)
 secim = input("Seçenek: ")
+
 os.system("clear")
+
 if secim == "1":
+    
+    os.system("figlet NMAP")
+    
     print("""
 
 1) Hızlı tarama
+
 2) Versiyon bilgisi
+
 3) İşletim sistemi bilgisi
+
 4) İp adresine bağlı diğer ip adresleri
+
 5) E-host keşfinden sonra tarama
+
 6) DNS çözümlemesi olmadan tarama
+
 7) DNS çözümlemesi ile tarama
+
+8) Tüm portları tarama
+
+9) Sadece açık portları tarama
+
+10) UDP bağlantı noktası tarama
+
+11) Açık porttan güvenlik açığı tarma
 
 """)
     secenek = input("Seçenek: ")
 
     ip = input("Hedef ip adresi: ")
+    
     os.system("clear")
 
     if secenek == "1":
+        
         os.system("nmap " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart5 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart5 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart5 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
+
 
     elif secenek == "2":
+        
         os.system("nmap -sS -sV " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart6 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart6 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart6 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     elif secenek == "3":
+        
         os.system("nmap  -O " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart7 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart7 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart7 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     elif secenek == "4":
+        
         os.system("nmap -sL " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart8 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart8 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart8 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     elif secenek == "5":
+        
         os.system("nmap -sn " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart9 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart9 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart9 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     elif secenek == "6":
+        
         os.system("nmap -n " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart10 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart10 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart10 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     elif secenek == "7":
+        
         os.system("nmap -R " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart11 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart11 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart11 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
+        
+    elif secenek == "8":
+        
+        os.system("nmap -p- " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart12 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart12 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart12 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
+        
+    elif secenek == "9":
+        
+        os.system("nmap -open " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart13 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart13 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart13 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
+        
+    elif secenek == "10":
+        
+        os.system("nmap -sU " + ip)
+        
+        print(""" 
+    
+        """)
+        restart14 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart14 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart14 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
+        
+    elif secenek == "11":
+        
+        nmap-port = input("Güvenlik açığının taranacağı açık port: ")
+        
+        os.system("nmap -sS -n -p " + nmap-port + "--script=vuln " + ip)
+        
+        print(""" 
+    
+        """)
+    
+        restart15 = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
+    
+        if restart15 == "E":
+            
+            os.system("python3 Ugroon_Scanner.py")
+        
+        elif restart15 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+
+        else:
+            
+            print("Program kapatıldı.")
+
+        exit()
 
     else:
+        
         print("Böyle bir seçenek yok! Program kapatılıyor.")
+        
         import time
+        
         time.sleep(3)
+        
         exit()
     
     print(""" 
