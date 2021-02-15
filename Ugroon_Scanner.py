@@ -111,6 +111,11 @@ if secim == "1":
         elif restart5 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart5 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")
+  
 
         else:
             
@@ -134,6 +139,10 @@ if secim == "1":
             os.system("python3 Ugroon_Scanner.py")
         
         elif restart6 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart6 == "":
             
             os.system("python3 Ugroon_Scanner.py")
 
@@ -160,6 +169,10 @@ if secim == "1":
         elif restart7 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart7 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -184,6 +197,10 @@ if secim == "1":
         elif restart8 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart8 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -208,6 +225,10 @@ if secim == "1":
         elif restart9 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart9 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -232,6 +253,10 @@ if secim == "1":
         elif restart10 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart10 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -254,6 +279,10 @@ if secim == "1":
             os.system("python3 Ugroon_Scanner.py")
         
         elif restart11 == "e":
+            
+            os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart11 == "":
             
             os.system("python3 Ugroon_Scanner.py")
 
@@ -280,6 +309,10 @@ if secim == "1":
         elif restart12 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart12 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")
 
         else:
             
@@ -304,6 +337,10 @@ if secim == "1":
         elif restart13 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart13 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -327,6 +364,10 @@ if secim == "1":
         elif restart14 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart14 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
@@ -353,6 +394,10 @@ if secim == "1":
         elif restart15 == "e":
             
             os.system("python3 Ugroon_Scanner.py")
+            
+        elif restart15 == "":
+            
+            os.system("python3 Ugroon_Scanner.py")    
 
         else:
             
