@@ -119,6 +119,8 @@ elif secim == "4":
     print("""
 Not: Dosya bulunduğunuz dizine indirilecektir.
 
+Not2: Gelen soruyu e yazıp enterlayın. Eğer dosyayı daha önce yanlışlıkla h yazıp enterladıysanız ya da direk enterladıysanız Ugroon_Scanner/XSpear dosyasını silip tekrar 4 ü seçin
+
 """)
     
     time.sleep(3)
