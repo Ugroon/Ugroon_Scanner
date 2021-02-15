@@ -56,25 +56,15 @@ if secim == "1":
     print("""
 
 1) Hızlı tarama
-
 2) Versiyon bilgisi
-
 3) İşletim sistemi bilgisi
-
 4) İp adresine bağlı diğer ip adresleri
-
 5) E-host keşfinden sonra tarama
-
 6) DNS çözümlemesi olmadan tarama
-
 7) DNS çözümlemesi ile tarama
-
 8) Tüm portları tarama
-
 9) Sadece açık portları tarama
-
 10) UDP bağlantı noktası tarama
-
 11) Açık porttan güvenlik açığı tarma
 
 """)
@@ -422,10 +412,16 @@ if secim == "1":
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
     if restart == "E":
+        
         os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
+        
         os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "":
+            
+            os.system("python3 Ugroon_Scanner.py")
 
     else:
         print("Program kapatıldı.")
@@ -433,20 +429,33 @@ if secim == "1":
         exit()
 
 elif secim == "2":
+    
     os.system("apt install zaproxy")
+    
     os.system("apt full-upgrade zaproxy")
+    
     os.system("zaproxy")
+    
     os.system("clear")
+    
 
 elif secim == "3":
+    
     os.system("apt install skipfish")
+    
     os.system("apt-full-upgrade skipfish")
+    
     skipfish = input("Taranacak site adresi(https:// ya da http:// ile): ")
+    
     skipfish_sonuc = input("Tarama sonucunun kaydedileceği dizin: ")
+    
     os.system("skipfish -o " + skipfish_sonuc + skipfish)
+    
     print("Dosya kaydedildi")
-    import time
+    
+    
     time.sleep(3)
+    
     exit()
     
 elif secim == "4":
@@ -477,6 +486,7 @@ Not2: Gelen soruyu e yazıp enterlayın. Eğer dosyayı daha önce yanlışlıkl
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
     if restart == "E":
+        
         os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "":
@@ -484,19 +494,27 @@ Not2: Gelen soruyu e yazıp enterlayın. Eğer dosyayı daha önce yanlışlıkl
         os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
+        
         os.system("python3 Ugroon_Scanner.py")
 
     else:
+        
         print("Program kapatıldı.")
 
         exit()
 
 elif secim == "5":
+    
     os.system("sudo apt-get install nikto")
+    
     os.system("sudo apt full-upgrade nikto")
+    
     os.system("nikto update")
+    
     os.system("clear")
+    
     os.system("figlet Nikto")
+    
     print("""
 
 1) Bilgilendirme tarama modu
@@ -508,6 +526,7 @@ elif secim == "5":
 """)
 
     nikto_secim = input("Seçenek: ")
+    
     print("""
 
 """)
@@ -531,9 +550,11 @@ elif secim == "5":
         os.system("nikto -h " + hedefip)
 
     else:
+        
         print("Hatalı işlem yaptınız bu nedenle program kaptılıyor.")
-        import time
+        
         time.sleep(3)
+        
         exit()
        
     print(""" 
@@ -543,12 +564,19 @@ elif secim == "5":
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ")   
     
     if restart == "E":
+        
         os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
+        
         os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "":
+            
+            os.system("python3 Ugroon_Scanner.py")
 
     else:
+        
         print("Program kapatıldı.")
 
         exit()   
@@ -556,15 +584,18 @@ elif secim == "5":
 elif secim == "16":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
+    
     os.system("clear")
 
     os.system("figlet Rapidscan")
+    
     print("""
     
     """)
     rapid_secim = input("Taranacak site adresi: ")
 
     os.system("clear")
+    
     os.system("cd rapidscan && python rapidscan.py " + rapid_secim)
           
     print(""" 
@@ -574,10 +605,16 @@ elif secim == "16":
     restart = input("Programı yeniden başlatmak istermisiniz? (E/h): ") 
     
     if restart == "E":
+        
         os.system("python3 Ugroon_Scanner.py")
         
     elif restart == "e":
+        
         os.system("python3 Ugroon_Scanner.py")
+        
+    elif restart == "":
+            
+            os.system("python3 Ugroon_Scanner.py")
 
     else:
         print("Program kapatıldı.")
@@ -585,11 +622,13 @@ elif secim == "16":
         exit()
 
 elif secim == "6":
+    
     os.system("python3 Searchsploit.py")
     
     exit()
 
 elif secim == "7":
+    
     os.system("python3 Sqlmap.py")
     
     exit()
@@ -658,6 +697,7 @@ elif secim == "15":
     
 else:
     print("Hatalı işlem yaptınız bu nedenle program kapatılıyor...")
-    import time
+    
     time.sleep(3)
+    
     exit()
