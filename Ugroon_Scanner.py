@@ -31,7 +31,8 @@ print("""
 12) Trojan oluşturma
 13) Burpsuite
 14) Wordlist oluşturma
-15) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
+15) Exploiting
+16) Nmap , Uniscan , Golismero , Wafw00f , SSLyze , Fierce , LBD , DNSRecon , Theharvester ve diğer araçların toplu şekilde bulunduğu tarama programı
 
 """)
 secim = input("Seçenek: ")
@@ -218,7 +219,7 @@ elif secim == "5":
 
         exit()   
         
-elif secim == "15":
+elif secim == "16":
 
     os.system("git clone https://github.com/skavngr/rapidscan.git") 
     os.system("clear")
@@ -312,6 +313,12 @@ elif secim == "13":
 elif secim == "14":
     
     os.system("python3 Wordlist.py")
+    
+    exit()
+    
+elif secim == "15":
+    
+    os.system("python3 Trojan_Dinleme.py")
     
     exit()
     
