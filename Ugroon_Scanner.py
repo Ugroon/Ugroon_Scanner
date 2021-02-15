@@ -316,9 +316,9 @@ if secim == "1":
         
     elif secenek == "11":
         
-        nmap-port = input("Güvenlik açığının taranacağı açık port: ")
+        nmap_port = input("Güvenlik açığının taranacağı açık port: ")
         
-        os.system("nmap -sS -n -p " + nmap-port + "--script=vuln " + ip)
+        os.system("nmap -sS -n -p " + nmap_port + "--script=vuln " + ip)
         
         print(""" 
     
