@@ -5,15 +5,25 @@ import os
 import time
 
 os.system("clear")
+
 os.system("apt autoremove -y")
+
 os.system("apt -y update")
+
 os.system("apt -y full-upgrade")
+
 os.system("apt -y install figlet")
+
 os.system("apt -y full-upgrade figlet")
+
 os.system("apt -y install git")
+
 os.system("apt -y full-upgrade git")
+
 os.system("apt-get install sysvbanner")
+
 os.system("clear")
+
 os.system("figlet WELCOME TO BOLLWIDE AND UGROON SCANNER")
 
 print("""
@@ -68,7 +78,17 @@ if secim == "1":
 11) Açık porttan güvenlik açığı tarma
 
 """)
+    
+    print("""
+    
+    
+    """)
+    
     secenek = input("Seçenek: ")
+    
+    print("""
+    
+    """)
 
     ip = input("Hedef ip adresi: ")
     
