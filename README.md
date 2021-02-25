@@ -4,7 +4,7 @@
 KURULUM: Git deposunu indirdikten sonra dosyanın içine gelerek şu komutları çalıştırın;
 chmod +x Ugroon_Scanner.py && python3 Ugroon_Scanner.py
 
-Kullanımı oldukça basit bir program olup tamamen Türkçedir. İçeriğinde hem uzun uzun kod yazmanıza gerek kalmadan kolaylık sağlayacak Tarama / Saldırı programları bulunmakta.
+Kullanımı oldukça basit bir program olup tamamen Türkçedir. İçeriğinde uzun uzun kod yazmanıza gerek kalmadan kolaylık sağlayacak Tarama / Saldırı programları bulunmakta.
 
 
 İyi hackler
